@@ -18,10 +18,7 @@ avatar: "images/Fischer Law Logo High Res cropped.png"
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: "info@jordanfischerlaw.com"
-  linkedin: "https://www.linkedin.com/in/jordan-fischer-cipp-e-cipp-us-cipm-706b4147/"
- 
- 
-
+  linkedin: "jordan-fischer-cipp-e-cipp-us-cipm-706b4147"
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
