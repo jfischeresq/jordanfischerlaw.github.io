@@ -9,7 +9,7 @@ name: "Fischer Law, LLC."
 description: "Privacy, Security, and Technology Law Firm"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: image: <img src="images/Fischer Law Logo High Res cropped.png" alt="Fischer Law">
+avatar: "images/Fischer Law Logo High Res cropped.png"
 
 #
 # Flags below are optional
