@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Services
-permalink: /services/
+permalink: /ourservices/
 ---
 
 <img src="/images/1606834149190.jpeg" alt="Global Technology">
-
-# Our Services
 
 We work with our clients to develop customized solutions to help address evolving digital legal challenges. Contact Us to schedule a call an initial consult today.  
 
