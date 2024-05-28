@@ -62,4 +62,4 @@ Fischer Law represents and advises clients on enforcement actions by regulatory 
 
 ## We represent clients across of a variety of industries, including:
 
-<img style="float: center; width:50%; height:50%; margin:10px; " src="/images/Industries.png">
+<img style="float: center; width:100%; height:auto; margin:10px; " src="/images/Industries.png">
