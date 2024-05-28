@@ -4,7 +4,7 @@ title: About Us
 permalink: /aboutus/
 ---
 
-<img style="float: right; width:50%; height:50%; margin:10px; " src="/images/Fischer%20Law%20Logo%20High%20Res%20cropped.png">
+<img style="float: right; max-width:50%; height:auto; margin:10px; " src="/images/Fischer%20Law%20Logo%20High%20Res%20cropped.png">
 
 In today's rapidly changing technological landscape, legal guidance on evolving privacy and cyber matters is critical to businesses across industries and around the globe. Whether you're a startup founder, a seasoned entrepreneur, or a well-established business, having a trusted technology lawyer on your side can make all the difference.
 
