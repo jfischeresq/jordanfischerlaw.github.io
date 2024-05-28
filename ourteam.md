@@ -6,7 +6,7 @@ permalink: /ourteam/
 
 ## Jordan L. Fischer, Esq.
 
-<img style="float: right; width:50%; height:50%; margin:10px; " src="/images/Jordan Fischer Firm Photo.jpg">
+<img style="float: right; max-width:50%; height:auto; margin:10px; " src="/images/Jordan Fischer Firm Photo.jpg">
 
 Jordan L. Fischer, founding partner and owner of Fischer Law, LLC, is a self-proclaimed privacy and technology legal nerd and entrepreneur. With her background in owning and operating businesses, and her experience working across the globe, Jordan brings extensive experience and practical knowledge to the global intersection of law and technology. Jordan understands the many demands on businesses, and works to create a balanced approach to privacy and data security compliance.
 
