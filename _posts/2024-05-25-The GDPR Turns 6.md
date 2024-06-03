@@ -26,5 +26,6 @@ As we head into year 6 of the GDPR, businesses need to recognize that privacy la
 
 To contact us today to learn more, please visit [About Us](https://jordanfischerlaw.com/aboutus/). 
 
-*Attorney advertising: prior results do not guarantee future outcomes.*
+* * * * * *
+*Nothing contained in this blog should be construed as creating an attorney-client relationship or providing legal advice of any kind. If you have a legal issue regarding cybersecurity, domestic or international data privacy, or electronic discovery, you should consult a licensed attorney in your jurisdiction.*
 
