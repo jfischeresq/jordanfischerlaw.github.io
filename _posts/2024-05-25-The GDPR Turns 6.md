@@ -12,10 +12,8 @@ As we reflect on the past six years, there are some key take-aways for businesse
 Ten years ago, privacy was a strategic initiative in key industries, such as healthcare and finance. But, outside of certain regulated industries, privacy was mostly a side consideration. This is no longer the case as many businesses are struggling with a rapid increase in new privacy laws and obligations that extend across all industries. 
 
 What does this mean for business? Privacy needs to become part of the overall business strategy. Determining the customized strategy for privacy should be a top priority this year and in the coming years. Not all privacy laws impact businesses the same: the key is to create customized solutions that address your businesses data needs and corresponding privacy law requirements. 
-
 ### Privacy is a Cross-Departmental Challenge
 Privacy is not a technical challenge, nor is it a legal challenge. Privacy law follows data, and data flows into every aspect of businesses. That means that privacy is a whole business challenge. And, therefore, requires that businesses create cross-departmental teams, incorporating operations, finance, human resources, IT, legal, and executive management. 
-
 ### The Adoption of Privacy Law continues to grow across the Globe 
 In the last six years, numerous jurisdictions have adopted GDPR-like privacy laws and a number have revamped their existing privacy laws to more closely align with the GDPR-approach to privacy protections. [IAPP Identifying global privacy laws, relevant DPAs] (https://iapp.org/news/a/identifying-global-privacy-laws-relevant-dpas). The IAPP reports a 17 country increase in the number of countries that maintain a privacy law. Just in the US, as of May 2024, there are 17 states that have adopted a comprehensive privacy law that will go into effect over the next three years. 
 
@@ -27,5 +25,5 @@ As we head into year 6 of the GDPR, businesses need to recognize that privacy la
 To contact us today to learn more, please visit [About Us](https://jordanfischerlaw.com/aboutus/). 
 
 * * * * * *
-*Nothing contained in this blog should be construed as creating an attorney-client relationship or providing legal advice of any kind. If you have a legal issue regarding cybersecurity, domestic or international data privacy, or electronic discovery, you should consult a licensed attorney in your jurisdiction.*
+<div align="center"> *Nothing contained in this blog should be construed as creating an attorney-client relationship or providing legal advice of any kind. If you have a legal issue regarding cybersecurity, domestic or international data privacy, or electronic discovery, you should consult a licensed attorney in your jurisdiction.*
 
