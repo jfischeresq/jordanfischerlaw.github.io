@@ -146,6 +146,12 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 //
 // .masthead
 //
@@ -211,10 +217,12 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
   @include mobile {
     float: none;
