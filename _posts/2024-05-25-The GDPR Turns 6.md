@@ -2,7 +2,7 @@
 layout: post
 title: The EU’s GDPR Turns 6 – What Can We Expect Now?
 ---
-"src = images/gdpr-3518254_1280.jpg"
+<img style="float: left; max-width:50%; height:auto; margin:10px; " src="/images/gdpr-3518254_1280.jpg">
 
 On May 25, 2024, the European Union’s General Data Protection Regulation (“GDPR”) turned six, marking an interesting first few years of the law’s impact on global businesses. When the GDPR went into effect in 2018, it made huge waves across industries collecting and processing personal data from individuals within the EU. In short, it changed the way most, if not all, jurisdictions approach privacy, and made privacy a top business priority. 
 
