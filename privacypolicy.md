@@ -1,3 +1,8 @@
+---
+layout: page
+title: Privacy Policy
+permalink: /privacy/
+---
 # PRIVACY POLICY
 
 ### Effective Date: June 1, 2024
