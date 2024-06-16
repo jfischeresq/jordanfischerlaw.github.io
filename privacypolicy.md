@@ -1,4 +1,4 @@
-<img style="float: right; max-width:50%; height:auto; margin:10px; " src="/images/images/Fischer Law Logo High Res cropped.png">
+<img style="float: right; max-width:50%; height:auto; margin:10px; " src="/images/Fischer Law Logo High Res cropped.png">
 
 # PRIVACY POLICY
 
