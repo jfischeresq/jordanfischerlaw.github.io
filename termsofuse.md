@@ -3,7 +3,6 @@ layout: page
 title: Terms of Use
 permalink: /terms/
 ---
-# Terms of Use
 ## Please read these Terms of Use carefully.
 
 Fischer Law, LLC (hereinafter collectively referred to as “Fischer Law,” “us,” “we,” “our,” or “Company”) has created the following Terms of Use (“Terms”) to apply to all users of this website, https://jordanfischerlaw.com/, and all digital assets contained or offered therein (collectively, our “Website”). These Terms do not apply to any provisions of legal counsel or advice, which is governed by a separate agreement.
