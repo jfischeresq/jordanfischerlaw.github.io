@@ -2,7 +2,7 @@
 layout: post
 title: The Next Wave of Privacy Laws Go into Effect July 1. Are You Ready?
 ---
-
+<img style="float: left; max-width:70%; height:auto; margin:10px; " src="/images/keyboard-895556_1280.jpg">
 _*This article was orginally posted by SecureWorld, via https://www.secureworld.io/industry-news/next-wave-privacy-laws-july-1_
 
 We are midway through 2024, and data privacy continues to dominate headlines and strategic business decisions across industries. Seventeen data privacy laws have been adopted across the U.S., and legislatures are continuing to consider, debate, and adopt new laws every month.
