@@ -2,9 +2,8 @@
 layout: post
 title: The Next Wave of Privacy Laws Go into Effect July 1. Are You Ready?
 ---
-<img style="float: left; max-width:70%; height:auto; margin:10px; " src="/images/keyboard-895556_1280.jpg">
 _*This article was orginally posted by SecureWorld, via https://www.secureworld.io/industry-news/next-wave-privacy-laws-july-1_
-
+<img style="float: left; max-width:70%; height:auto; margin:10px; " src="/images/keyboard-895556_1280.jpg">
 We are midway through 2024, and data privacy continues to dominate headlines and strategic business decisions across industries. Seventeen data privacy laws have been adopted across the U.S., and legislatures are continuing to consider, debate, and adopt new laws every month.
 
 On July 1st, three new state privacy laws go into effect: (1) Texas; (2) Oregon; and (3) Florida. While Texas and Oregon are, in many respects, following the trends set by other privacy laws that are already in effect in the U.S., Florida is breaking with tradition and approaching the space from a new perspective with a Digital Bill of Rights and narrowly focusing on large ($1 billion plus) companies.
