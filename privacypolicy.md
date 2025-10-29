@@ -3,7 +3,7 @@ layout: page
 title: Privacy Policy
 permalink: /privacy/
 ---
-### Effective Date: June 1, 2024
+### Effective Date: June 1, 2025
 
 Fischer Law, LLC (hereinafter referred to as “Fischer Law,” “us,” “we,” “our,” or “Firm”) created this Privacy Policy to apply to information collected through this website (https://jordanfischerlaw.com/) and all digital assets contained or offered therein (“Website”).  This Privacy Policy describes, among other things, the types of Information we collect from users when you use our Website, how we use it, and how you can access your Information.  This Policy does not apply to any of the legal services provided by Fischer Law
 
