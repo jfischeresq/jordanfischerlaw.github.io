@@ -104,5 +104,5 @@ We reserve the right to change, modify, or amend these Terms at any time to refl
 ## XV. HOW TO CONTACT US
 If you have any questions about these Terms, please contact us at: info@jordanfischerlaw.com. 
 
-Last Updated: June 1, 2024
+Last Updated: June 1, 2025
 
