@@ -8,8 +8,8 @@ permalink: /ourteam/
 {% for person in site.team %}
   
   <!-- Person container -->
-  <div style="display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; ">
-      <img style="max-height:500px; margin:10px; " src="{{ person.image_path }}">
+  <div style="display: flex; flex-direction: column; align-items: center; flex-wrap: wrap; margin:10px;">
+      <img style="max-height:500px;" src="{{ person.image_path }}">
       
       <a href="{{ person.url }}">
       <h2>{{ person.name }}</h2>
