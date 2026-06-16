@@ -98,7 +98,7 @@ To the fullest extent permitted by law, and except to the extent arising from ou
 ## XIII. NO THIRD-PARTY BENEFICIARIES
 There are no third-party beneficiaries to the Terms. We shall have the right to assign our rights or delegate any of its responsibilities under these Terms to an affiliate or in connection with a merger, consolidation, or reorganization for the sale of substantially all our assets.
 
-## XIV. CHANGES TO THESE Terms
+## XIV. CHANGES TO THESE TERMS
 We reserve the right to change, modify, or amend these Terms at any time to reflect changes in our practices and service offerings. If we modify our Terms, such changes will be effective upon posting. It is your obligation to check our current Terms for any changes.  These Terms may only be modified in writing. Any ambiguities in the interpretation will not be construed against the drafter.   
 
 ## XV. HOW TO CONTACT US
