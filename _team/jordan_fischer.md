@@ -1,21 +1,22 @@
 ---
 layout: bio
 name: Jordan L. Fischer, Esq.
+role: Founding Partner
+order: 1
 image_path: /images/jordan_fischer.jpg
+credentials: "CIPP/E · CIPP/US · CIPM"
+linkedin: "https://www.linkedin.com/in/jordan-fischer-cipp-e-cipp-us-cipm-706b4147"
+description: "Jordan L. Fischer is the founding partner of Fischer Law, P.C., advising on data privacy, cybersecurity, AI regulation, and technology law."
 ---
-## Jordan L. Fischer, Esq.
-
-<img style="float: right; max-width:50%; height:auto; margin:10px; " src="/images/jordan_fischer.jpg">
-
-Jordan L. Fischer, founding partner and owner of Fischer Law, LLC, is a self-proclaimed privacy and technology legal nerd and entrepreneur. With her background in owning and operating businesses, and her experience working across the globe, Jordan brings extensive experience and practical knowledge to the global intersection of law and technology. Jordan understands the many demands on businesses, and works to create a balanced approach to privacy and data security compliance.
+Jordan L. Fischer, founding partner and owner of Fischer Law, P.C., is a self-proclaimed privacy and technology legal nerd and entrepreneur. With her background in owning and operating businesses, and her experience working across the globe, Jordan brings extensive experience and practical knowledge to the global intersection of law and technology. Jordan understands the many demands on businesses, and works to create a balanced approach to privacy and data security compliance.
 
 Jordan works with businesses to continually evaluate and assess legal and business opportunities and risks to provide public and private sector clients with practical data privacy and cybersecurity counsel and business strategic advice. Jordan’s goal is to understand your business, your approach, your risks, and then work with you to create effective, long-lasting solutions to your data privacy and technology legal challenges. 
 
-With more than ten years of experience in data privacy, cybersecurity, and technology law, Jordan advises clients on a variety of regulations, including but not limited to the General Data Protection Regulation (GDPR), the EU Artificial Intelligence Act, the California Consumer Privacy Act (CCPA)/California Privacy Rights Act (CPRA), the Fair Credit Reporting Act (FCRA), and the Driver’s Privacy Protection Act (DPPA). Additionally, she provides counsel on biometric data laws, global data breach standards, and federal and state unfair business practices acts and privacy frameworks such as International Standards Organization (ISO) 27001 and 27701, the National Institute of Standards and Technology (NIST), and the Payment Credit Card Industry Data Security Standard (PCI DSS).
+With more than ten years of experience in data privacy, cybersecurity, and technology law, Jordan advises clients on a variety of regulations, including but not limited to the General Data Protection Regulation (GDPR), the EU Artificial Intelligence Act, the California Consumer Privacy Act (CCPA)/California Privacy Rights Act (CPRA), the Fair Credit Reporting Act (FCRA), and the Driver’s Privacy Protection Act (DPPA). Additionally, she provides counsel on biometric data laws, global data breach standards, and federal and state unfair business practices acts and privacy frameworks such as International Standards Organization (ISO) 27001 and 27701, the National Institute of Standards and Technology (NIST), and the Payment Card Industry Data Security Standard (PCI DSS).
 
 Jordan regularly represents clients in contractual negotiations pertaining to technology, data management, security, and privacy, and she assists in the development of customized, right-sized compliance programs to address numerous regulatory requirements and industry best practices. She also advises clients on cross-border data management and information governance, developing business-oriented and cost-effective strategies for information security, data privacy, and technology compliance.
 
-Jordan's experience provides her the opportunity to represent clients in a wide range of industries, gaining valuable insight into sectors including agriculture, adtech, emerging technologies (blockchain, Internet of Things (IoT), and Artificial Intelligence (AI), gaming, healthcare, manufacturing, and pharmaceutical. She advises clients on third-party management, addressing the privacy and security of their supply chain. She also collaborates with clients to develop business solutions that incorporate privacy-by-design and security-by-design principles, fusing regulatory requirements with practical, real-world solutions.
+Jordan's experience provides her the opportunity to represent clients in a wide range of industries, gaining valuable insight into sectors including agriculture, adtech, emerging technologies (blockchain, Internet of Things (IoT), and Artificial Intelligence (AI)), gaming, healthcare, manufacturing, and pharmaceutical. She advises clients on third-party management, addressing the privacy and security of their supply chain. She also collaborates with clients to develop business solutions that incorporate privacy-by-design and security-by-design principles, fusing regulatory requirements with practical, real-world solutions.
 
 In addition to her private practice, Jordan is a Cybersecurity Lecturer at the University of California, Berkeley and a Visiting Research Professor in the Center for Law and Transformational Technology at Drexel University's Thomas R. Kline School of Law. Her academic research investigates the convergence of law and technology, as well as the practical implications of regional data protection and artificial intelligence regulations in the context of the global economy.
 
