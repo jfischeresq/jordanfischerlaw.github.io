@@ -1,18 +1,48 @@
-    <meta charset="utf-8" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+{%- assign page_title = page.title | default: page.name -%}
+{%- if page_title and page.url != "/" -%}
+  {%- capture full_title -%}{{ page_title }} | {{ site.name }}{%- endcapture -%}
+{%- else -%}
+  {%- capture full_title -%}{{ site.name }} | {{ site.description }}{%- endcapture -%}
+{%- endif -%}
+{%- if page.description -%}
+  {%- assign meta_desc = page.description -%}
+{%- elsif page.excerpt -%}
+  {%- assign meta_desc = page.excerpt | strip_html | strip_newlines | truncatewords: 32 -%}
+{%- else -%}
+  {%- assign meta_desc = site.tagline -%}
+{%- endif -%}
+{%- assign meta_image = page.image | default: site.og_image -%}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ full_title | strip }}</title>
+    <meta name="description" content="{{ meta_desc | strip | escape }}">
+    <meta name="author" content="{{ site.name }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-    {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
-    {% endif %}
-    <meta name="author" content="{{ site.name }}" />
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:title" content="{{ full_title | strip | escape }}">
+    <meta property="og:description" content="{{ meta_desc | strip | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ meta_image | uri_escape | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
 
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
-    {% endif %}
+    <meta name="theme-color" content="#14284B">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.name }} Insights" href="{{ '/feed.xml' | relative_url }}">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}",
+      "logo": "{{ site.logo | uri_escape | absolute_url }}",
+      "email": "{{ site.contact.email }}",
+      "telephone": "+1-{{ site.contact.phone }}",
+      "description": "{{ site.tagline }}",
+      "sameAs": ["{{ site.contact.linkedin }}"]
+    }
+    </script>

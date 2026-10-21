@@ -1,0 +1,39 @@
+<section class="cta-band" aria-labelledby="cta-heading">
+  <div class="container cta-inner">
+    <div>
+      <h2 id="cta-heading">Talk through a matter with us.</h2>
+      <p>Tell us what you're working on. We'll respond promptly and, where it fits, propose a fixed fee up front.</p>
+    </div>
+    <a class="btn btn-light" href="mailto:{{ site.contact.email }}">{% include icon.html name="mail" %} {{ site.contact.email }}</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <p class="footer-name">{{ site.name }}</p>
+      <p>A women-owned law firm focused on data privacy, cybersecurity, AI regulation, and technology law.</p>
+    </div>
+    <div>
+      <p class="footer-head">Contact</p>
+      <ul class="footer-list">
+        <li><a href="mailto:{{ site.contact.email }}">{% include icon.html name="mail" %} {{ site.contact.email }}</a></li>
+        <li><a href="tel:+1{{ site.contact.phone | remove: '-' }}">{% include icon.html name="phone" %} {{ site.contact.phone }}</a></li>
+        <li><a href="{{ site.contact.linkedin }}" rel="noopener">{% include icon.html name="linkedin" %} LinkedIn</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-head">Firm</p>
+      <ul class="footer-list">
+        <li><a href="{{ '/ourservices/' | relative_url }}">Services</a></li>
+        <li><a href="{{ '/insights/' | relative_url }}">Insights</a></li>
+        <li><a href="{{ '/aboutus/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/ourteam/' | relative_url }}">Team</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-legal">
+    <p>The content on this website is general information, not legal advice. Contacting us does not create an attorney-client relationship. Please don't send confidential information until we've confirmed we can represent you.</p>
+    <p><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a> <span aria-hidden="true">·</span> <a href="{{ '/terms/' | relative_url }}">Terms of Use</a> <span aria-hidden="true">·</span> &copy; {{ site.time | date: '%Y' }} {{ site.name }}. All rights reserved.</p>
+  </div>
+</footer>

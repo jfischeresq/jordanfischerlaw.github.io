@@ -1,0 +1,24 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.name }} home">
+      <img class="brand-logo" src="{{ site.logo | uri_escape | relative_url }}" alt="" width="44" height="40">
+      <span class="brand-text">
+        <span class="brand-name">Fischer Law</span>
+        <span class="brand-sub">Privacy · Security · AI · Technology</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      {%- assign nav = "Services|/ourservices/,Insights|/insights/,About|/aboutus/,Team|/ourteam/" | split: "," -%}
+      {%- for item in nav -%}
+        {%- assign parts = item | split: "|" -%}
+        {%- assign is_current = false -%}
+        {%- if page.url == parts[1] -%}{%- assign is_current = true -%}{%- endif -%}
+        {%- if parts[1] == "/insights/" and page.layout == "post" -%}{%- assign is_current = true -%}{%- endif -%}
+        {%- if parts[1] == "/ourteam/" and page.collection == "team" -%}{%- assign is_current = true -%}{%- endif -%}
+        <a href="{{ parts[1] | relative_url }}"{% if is_current %} aria-current="page"{% endif %}>{{ parts[0] }}</a>
+      {%- endfor -%}
+      <a class="nav-cta" href="mailto:{{ site.contact.email }}">Contact</a>
+    </nav>
+  </div>
+</header>
