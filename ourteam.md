@@ -5,10 +5,10 @@ permalink: /ourteam/
 wide: true
 eyebrow: People
 lede: "Experienced privacy, cybersecurity, and AI counsel who understand both the law and the business."
-description: "Meet the attorneys of Fischer Law, P.C.."
+description: "Meet the attorneys of Fischer Law, P.C."
 ---
 
-<div class="grid grid-3">
+<div class="grid team-grid">
 {%- assign people = site.team | sort: "order" -%}
 {%- for person in people -%}
   <a class="person" href="{{ person.url | relative_url }}">
