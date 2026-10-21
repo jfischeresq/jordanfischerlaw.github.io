@@ -2,15 +2,16 @@
 layout: page
 title: Terms of Use
 permalink: /terms/
+eyebrow: Legal
 ---
 ## Please read these Terms of Use carefully.
 
-Fischer Law, LLC (hereinafter collectively referred to as “Fischer Law,” “us,” “we,” “our,” or “Company”) has created the following Terms of Use (“Terms”) to apply to all users of this website, https://jordanfischerlaw.com/, and all digital assets contained or offered therein (collectively, our “Website”). These Terms do not apply to any provisions of legal counsel or advice, which is governed by a separate agreement.
+Fischer Law, P.C. (hereinafter collectively referred to as “Fischer Law,” “us,” “we,” “our,” or “Company”) has created the following Terms of Use (“Terms”) to apply to all users of this website, https://jordanfischerlaw.com/, and all digital assets contained or offered therein (collectively, our “Website”). These Terms do not apply to any provisions of legal counsel or advice, which is governed by a separate agreement.
  
 These Terms are written in the English language. We do not guarantee the accuracy of any translated versions of these Terms. To the extent any translated versions of these Terms conflict with the English language version, the English language version of these Terms shall control.
 
 ## I. GENERAL CONDITIONS
-Please carefully read these Terms before using our Website. By using our Website, you agree to be bound by the Terms, including the Binding Arbitration Clause and Class Action Waiver described in Section IX, and the Privacy Policy [INSERT LINK]. If you do not agree to the Terms, then you must not use our Website. If you violate the Terms, we reserve the right to deny you access to our Website, together with any and all other legal remedies.
+Please carefully read these Terms before using our Website. By using our Website, you agree to be bound by the Terms, including the Binding Arbitration Clause and Class Action Waiver described in Section IX, and the [Privacy Policy](/privacy/). If you do not agree to the Terms, then you must not use our Website. If you violate the Terms, we reserve the right to deny you access to our Website, together with any and all other legal remedies.
 
 The headings used herein are included for convenience only and will not limit or otherwise affect these Terms.
 

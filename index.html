@@ -1,38 +1,125 @@
 ---
 layout: default
+description: "Fischer Law is a women-owned law firm advising companies on data privacy, cybersecurity, AI regulation, and technology law across the US, Canada, Latin America, Europe, and Southeast Asia."
 ---
-  <link rel="stylesheet" type="text/css" href="/home.css" />
-  <script src="https://kit.fontawesome.com/b7a521505c.js" crossorigin="anonymous"></script>
+<section class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">Privacy · Cybersecurity · AI · Technology Law</p>
+    <h1>Practical counsel for companies whose business runs on data.</h1>
+    <p class="lede">We help legal, privacy, and security teams meet privacy, cybersecurity, and AI requirements across the globe, with fixed-fee pricing and direct access to experienced counsel.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/ourservices/' | relative_url }}">Explore our services {% include icon.html name="arrow" %}</a>
+      <a class="btn btn-ghost" href="mailto:{{ site.contact.email }}">Start a conversation</a>
+    </div>
+    <div class="hero-regions" aria-label="Regions we advise on">
+      <strong>We advise across</strong>
+      <span>United States</span><span>Canada</span><span>Latin America</span><span>Europe &amp; UK</span><span>Southeast Asia</span>
+    </div>
+  </div>
+</section>
 
-<main>
-  <div class="intro">
-    <h1>Privacy, Security and Technology Law</h1>
-    <p>Understanding evolving regulatory and legal requirements across the globe.</p>
-    <a href="/ourservices">
-      <button>Our Services</button>
-    </a>
-  </div>
-  <div class="achievements">
-    <div class="work">
-      <i class="fa-solid fa-laptop-file"></i>
-      <p class="work-heading">Cost Effective</p>
-      <p class="work-text">Cost-effective, fixed-fee solutions that work within your budget to address your data privacy and cybersecurity needs.</p>
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">What we do</p>
+      <h2>Focused exclusively on the law of data and technology.</h2>
+      <p>Our practice sits where regulation, technology, and business strategy meet. We build programs that hold up to regulators and still work for the business.</p>
     </div>
-    <div class="work">
-      <i class="fa-solid fa-earth-americas"></i>
-      <p class="work-heading">Global Regulatory Compliance</p>
-      <p class="work-text">Deep experience with global privacy, data security, and technology regulatory requirements, including the United States, Canada, Europe, Asia, and South America.</p>
-    </div>
-    <div class="work">
-      <i class="fa-solid fa-people-group"></i>
-      <p class="work-heading">Strategic Advisory Counsel</p>
-      <p class="work-text">Outside Privacy and Security Counsel that provides on-going legal guidance and strategy to address a variety of technological and digital legal matters.</p>
+    <div class="grid grid-4">
+      <a class="card" href="{{ '/ourservices/#privacy' | relative_url }}">
+        <span class="icon-wrap">{% include icon.html name="shield" %}</span>
+        <h3>Data Privacy</h3>
+        <p>Global privacy programs, data mapping, assessments, notices, and rights handling under GDPR, US state laws, and beyond.</p>
+        <span class="more">Learn more {% include icon.html name="arrow" %}</span>
+      </a>
+      <a class="card" href="{{ '/ourservices/#ai' | relative_url }}">
+        <span class="icon-wrap">{% include icon.html name="ai" %}</span>
+        <h3>AI Governance &amp; Regulation</h3>
+        <p>AI governance frameworks, risk assessments, and readiness for the EU AI Act and emerging AI rules worldwide.</p>
+        <span class="more">Learn more {% include icon.html name="arrow" %}</span>
+      </a>
+      <a class="card" href="{{ '/ourservices/#cybersecurity' | relative_url }}">
+        <span class="icon-wrap">{% include icon.html name="lock" %}</span>
+        <h3>Cybersecurity</h3>
+        <p>Incident response planning, tabletop exercises, security governance, and breach counsel when it matters most.</p>
+        <span class="more">Learn more {% include icon.html name="arrow" %}</span>
+      </a>
+      <a class="card" href="{{ '/ourservices/#transactions' | relative_url }}">
+        <span class="icon-wrap">{% include icon.html name="contract" %}</span>
+        <h3>Technology Transactions</h3>
+        <p>DPAs, SaaS and AI vendor agreements, transfer mechanisms, and vendor risk management.</p>
+        <span class="more">Learn more {% include icon.html name="arrow" %}</span>
+      </a>
     </div>
   </div>
-  <div class="about-us">
-    <h2>About The Firm</h2>
-    <div class="about-us-text">
-      <p>Fischer Law is a women-owned law firm that focuses exclusively on helping businesses navigate the fast-moving legal landscape of data privacy, cybersecurity, and technology law. Whether you are a startup founder, a seasoned entrepreneur, or a well-established business, we work with you to navigate the complex privacy, cybersecurity, and technology legal challenges that impact your business.</p>
-      <img src="/images/Fischer Law Logo High Res cropped.png" alt="Fischer Law, LLC">
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">How we work</p>
+      <h2>Experienced counsel, built around how you work.</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="pillar">
+        <h3>Fixed-fee engagements</h3>
+        <p>Most of our work is offered on a fixed-fee basis. You know the cost before we start, and our incentive is to be efficient, not to bill hours.</p>
+      </div>
+      <div class="pillar">
+        <h3>Cross-border by default</h3>
+        <p>Data doesn't stop at borders. We address each jurisdiction's requirements on its own terms, then build one program that works across all of them.</p>
+      </div>
+      <div class="pillar">
+        <h3>Embedded outside counsel</h3>
+        <p>We serve as ongoing privacy, security, and AI counsel to in-house teams, so you have a trusted advisor who already knows your business.</p>
+      </div>
+    </div>
   </div>
-</main>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">About the firm</p>
+      <h2>A women-owned firm built around one area of law.</h2>
+      <p>Fischer Law focuses exclusively on data privacy, cybersecurity, AI regulation, and technology law. We work with global enterprises, growth-stage companies, and the in-house teams that support them.</p>
+      <p>We teach, write, and speak on these issues, and bring that perspective to practical, business-ready advice.</p>
+      <a class="link-arrow" href="{{ '/aboutus/' | relative_url }}">About Fischer Law {% include icon.html name="arrow" %}</a>
+    </div>
+    <div class="grid grid-2 team-pair">
+      {%- assign people = site.team | sort: "order" -%}
+      {%- for person in people limit: 2 -%}
+      <a class="person" href="{{ person.url | relative_url }}">
+        <img src="{{ person.image_path | uri_escape | relative_url }}" alt="Photo of {{ person.name }}" loading="lazy">
+        <div class="person-body">
+          <h3>{{ person.name }}</h3>
+          {% if person.role %}<p>{{ person.role }}</p>{% endif %}
+        </div>
+      </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% if site.posts.size > 0 %}
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head section-head-row">
+      <div>
+        <p class="eyebrow">Insights</p>
+        <h2>Recent thinking</h2>
+      </div>
+      <a class="link-arrow" href="{{ '/insights/' | relative_url }}">All insights {% include icon.html name="arrow" %}</a>
+    </div>
+    <div class="grid grid-3">
+      {%- for post in site.posts limit: 3 -%}
+      <a class="card post-card" href="{{ post.url | relative_url }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y" }}</time>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.description | default: post.excerpt | strip_html | truncatewords: 26 }}</p>
+      </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{% endif %}
