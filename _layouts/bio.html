@@ -1,10 +1,21 @@
 ---
 layout: default
 ---
-
-<article class="bio">
-
-  <div class="entry">
-    {{ content }}
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow"><a href="{{ '/ourteam/' | relative_url }}">Our Team</a></p>
+    <h1>{{ page.name }}</h1>
+    {% if page.role %}<p class="lede">{{ page.role }}</p>{% endif %}
   </div>
-</article>
+</section>
+<div class="container bio-grid">
+  <aside class="bio-aside">
+    <img class="bio-photo" src="{{ page.image_path | uri_escape | relative_url }}" alt="Photo of {{ page.name }}">
+    {% if page.credentials %}<p class="bio-creds">{{ page.credentials }}</p>{% endif %}
+    <a class="btn btn-outline btn-block" href="mailto:{{ site.contact.email }}">{% include icon.html name="mail" %} Contact</a>
+    {% if page.linkedin %}<a class="btn btn-outline btn-block" href="{{ page.linkedin }}" rel="noopener">{% include icon.html name="linkedin" %} LinkedIn</a>{% endif %}
+  </aside>
+  <article class="prose">
+    {{ content }}
+  </article>
+</div>

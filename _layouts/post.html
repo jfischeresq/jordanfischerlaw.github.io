@@ -1,17 +1,18 @@
 ---
 layout: default
 ---
-
-<article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow"><a href="{{ '/insights/' | relative_url }}">Insights</a></p>
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} · {{ page.author }}{% endif %}</p>
+  </div>
+</section>
+<div class="container content">
+  <article class="prose">
+    {% if page.image %}<img class="post-cover" src="{{ page.image | uri_escape | relative_url }}" alt="">{% endif %}
     {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+    <p class="disclaimer">This article is general information, not legal advice, and does not create an attorney-client relationship. For advice on a specific matter, consult a licensed attorney in the relevant jurisdiction.</p>
+  </article>
+  <p class="back-link"><a href="{{ '/insights/' | relative_url }}">&larr; All insights</a></p>
+</div>

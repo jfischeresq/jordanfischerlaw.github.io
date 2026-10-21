@@ -1,55 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+{% include meta.html %}
   </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/ourservices">Services</a>
-            <a href="{{ site.baseurl }}/insights">Insights</a>            
-            <a href="{{ site.baseurl }}/aboutus">About</a>
-            <a href="{{ site.baseurl }}/ourteam">Team</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
+  <body class="{% if page.url == '/' %}is-home{% endif %}">
+    {% include header.html %}
+    <main id="main">
       {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-          <p> <a href="https://jordanfischerlaw.com/privacy/">Privacy Policy</a> | <a href="https://jordanfischerlaw.com/terms/">Terms of Use</a> </p>
-          <p>&copy; {{ site.name }} {{ site.time | date: '%Y' }} | All Rights Reserved. </p>
-        </footer>
-      </div>
-    </div>
-
+    </main>
+    {% include footer.html %}
     {% include analytics.html %}
   </body>
 </html>
